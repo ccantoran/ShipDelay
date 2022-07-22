@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "heebo";
+}
+:root{
+    --main-color:#F7481D;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:black;
+}
+li{
+    list-style: none;
+}
+
+/*//////////////////////////////////////////////////
+            NAV
+//////////////////////////////////////////////////*/
+
+nav{
+    display:flex;
+    justify-content: space-around; 
+    height:fit-content;
+    padding-bottom: 2vh;
+    background-color: var(--main-color);
+}
+h1{
+    text-align: center;
+    width:80%;
+    margin: 5px 0 0 35px;
+    color:white;
+}
+.openMenu{
+    width: fit-content;
+    height: fit-content;
+    margin: 8px 10px 0 0;
+    color: white;
+}
+nav>img{
+    width:7em;
+    margin: 2vh 0 0 2vh;
+    display:none;
+}
+.mainMenu{
+    display: none;
+    text-align: center;
+    width:fit-content;
+    align-self: center;
+    margin-top: 10px;
+}
+.mainMenu>ul>li{
+    margin: 5px 0;
+}
+@media (min-width:600px) and (max-width:2000px){
+    .mainMenu{
+        border:blue solid;
+        width: 40px;
+        display:flex;
+        z-index: 1;
+    }
+    .openMenu{
+        border: green solid;
+    }
+
+}
+
+/*//////////////////////////////////////////////////
+        MAIN
+////////////////////////////////////////////////////*/
+main{
+    margin-top: 10vh;
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 15vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+form>label{
+    margin-top: 5vh;
+}
+form>p{
+    font-size: smaller;
+}
+form>input{
+    width: 200px;
+    border: rgb(106, 107, 106) solid;
+    border-radius:5px;
+    margin-top:10px;
+    text-align: center;
+}
+.outputs>p, #last-day, #at-zero{
+    margin: 20px 0;
+}
+button{
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+    background-color: var(--main-color);
+    color:white;
+}
+
+
+/*////////////////////////////////////////////////////////
+        FOOTER
+/////////////////////////////////////////////////////////*/
+footer{
+    background: var(--main-color);
+    text-align: center;
+    padding: 10px 0; 
+    font-weight: 500;
+    color:white;
+}

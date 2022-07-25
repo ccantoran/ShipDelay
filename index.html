@@ -14,6 +14,7 @@
     <script src="https://kit.fontawesome.com/59c032d6c4.js" crossorigin="anonymous"></script>
     <!-- external javascript file -->
     <script src='main.js' defer></script>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png?v=1"/>
     <title>ShipDelay!</title>
 </head>
 <body>
@@ -32,6 +33,7 @@
     <main>
         <div class="about-div">Input your inventory data </div>
         <form>
+            <div>
             <label for="name">Name of Product</label>
             <input type="text" name="name" placeholder="name of product">
 
@@ -42,7 +44,8 @@
             <label for="inventory">Live Inventory</label>
             <p>current pieces in inventory</p>
             <input id='currentInventory' type="number" name="inventory" placeholder="">
-
+            </div>
+            <div>
             <label for="consume">Amount Consumed Per Week (Average)</label>
             <p>must be the same unit/pieces as live inventory</p>
             <input id='weeklyConsumption' type="number" name="consume" placeholder="">
@@ -54,6 +57,7 @@
             <label for="lead">Lead time</label>
             <p>time needed for supplier to complete order from initial order date to booking transportation</p>
             <input id='leadTime' type="number" name="lead" placeholder="in days">
+            </div>
         </form>
         <div class="outputs">
             <p>Last Day to Order:</p>

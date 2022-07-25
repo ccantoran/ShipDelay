@@ -89,7 +89,7 @@ nav>img{
     .mainMenu{
         display:flex;
         margin: 80px 0 0 0;
-        width:80%;
+        width: 60%;
     }
     .mainMenu>ul{
         display: flex;
@@ -109,72 +109,25 @@ nav>img{
         MAIN
 ////////////////////////////////////////////////////*/
 main{
-    margin-top: 10vh;
-    text-align: center;
-    height: fit-content;
-    margin-bottom: 15vh;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    height: fit-content;
-}
-form>div{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-form>div>label{
-    margin-top: 4vh;
-}
-form>div>p{
-    font-size: smaller;
-}
-form>div>input{
-    width: 200px;
-    border: rgb(106, 107, 106) solid;
-    border-radius:5px;
-    margin-top:10px;
     text-align: center;
+    padding: 10% 10% 20% 10%;
 }
-.outputs>p, #last-day, #at-zero{
-    margin: 20px 0;
+h2{
+    color:black;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px grey;
+    font-size: 30px;
 }
-button{
-    padding:5px;
-    border-radius: 5px;
-    border:none;
-    background-color: var(--main-color);
-    color:white;
-}
-@media (min-width:700px) and (max-width:2000px){
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    form{
-        display: flex;
-        flex-direction: row;
-        width:80%;
-    }
-    form>div{
-        width:50%;
-    }
-    button{
-        margin-top: 3vh;
-    }
-}
-
 
 /*////////////////////////////////////////////////////////
         FOOTER
 /////////////////////////////////////////////////////////*/
 footer{
     background: var(--main-color);
+    height:fit-content;
     text-align: center;
     padding: 10px 0; 
     font-weight: 500;

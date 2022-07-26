@@ -3,7 +3,7 @@
 Check out the live site!
 https://shipdelay.netlify.app/
 
-<img src="github%20jcproperties.png" width="650" height="450">
+<img src="gitshipdelay.png" width="550" height="350">
 
 # How It Was Made
 This project was made using vanilla JS, HTML and CSS

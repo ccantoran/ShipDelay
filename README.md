@@ -13,5 +13,5 @@ This project was created for the purpose to help a previous employer calculate t
 In the future, I would include a tab that includes the latest in manufacturing news. This would be done with a web scraper API. I would include a filter so that the user can specifically look for news that pertain to them. 
 
 # Lessons Learned 
-I learned that I like mobile first development. I used to do desktop first and then at the end have to worry about the media queries and fitting in a hamburger menu. This would be very time consuming and personally, I really loathed this part. So I decided to take a new approach and the building stage feels smoother. 
+I learned that I like mobile first development. I used to do desktop first and then at the end have to worry about the media queries and fitting in a hamburger menu. This would be very time consuming and personally, I really loathed this part. So I decided to take a new approach and the building stage feels a lot smoother. 
 

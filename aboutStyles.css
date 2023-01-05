@@ -24,13 +24,16 @@ li{
     list-style: none;
 }
 
+
+
+
 /*//////////////////////////////////////////////////
             NAV
 //////////////////////////////////////////////////*/
 
 nav{
     display:flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     height:fit-content;
     padding-bottom: 2vh;
     background-color: var(--main-color);
@@ -129,7 +132,7 @@ footer{
     background: var(--main-color);
     height:fit-content;
     text-align: center;
-    padding: 10px 0; 
+    padding: 10px 0;
     font-weight: 500;
     color:white;
 }
